@@ -1,0 +1,100 @@
+.navbar {
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #e8ebed;
+  display: flex;
+  font-size: 1.4rem;
+  left: 0;
+  padding: 0 28px;
+
+  .navbar-logo {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    a {
+      display: flex;
+
+      img {
+        align-items: center;
+        height: 55px;
+        width: 75px;
+        flex-shrink: 0;
+        object-fit: contain;
+      }
+    }
+
+    .text-logo {
+      color: #000;
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .navbar-action {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1;
+
+    .itemAvatar {
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+
+      .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+
+      .nameLogin {
+        margin-left: 10px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      &:hover {
+        background-color: white;
+        border: 1px double rgb(58, 80, 217);
+        border-radius: 7px;
+        font-weight: 700;
+        padding: 5px;
+      }
+    }
+    .data-tippy-root {
+      z-index: 9999;
+      position: absolute;
+      inset: 0px 0px auto auto;
+      margin: 0px;
+      transform: translate3d(-28px, 56.8px, 0px);
+    }
+    .tippy-box {
+      width: 153px;
+      animation: Tippy-module_fadeIn__2LeID 0.3s ease;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 -4px 32px rgb(0 0 0 / 20%);
+      color: #1d2129;
+      margin: 0;
+      overflow: hidden;
+      padding-left: 0;
+      transition: all 0.3s ease-in-out;
+      will-change: opacity, transform;
+    }
+  }
+}
+
+.menu-items {
+  padding: 10px 3px 10px 3px;
+  align-items: center;
+  .btn-forgot,
+  .btn-logout {
+    &:hover {
+      background-color: rgb(241, 241, 241);
+      border-radius: 7px;
+      padding: 5px;
+    }
+  }
+}

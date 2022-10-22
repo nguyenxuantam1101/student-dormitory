@@ -1,0 +1,276 @@
+//Receipts
+.receipts {
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  .receipts-title {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+    &::after {
+      width: 150px;
+      height: 2px;
+      display: block;
+      content: '';
+      position: relative;
+      margin-top: 5px;
+      margin-left: 2px;
+      background-color: #b80000;
+    }
+  }
+  .card-receipts {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 5px 0 grey;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 0px;
+    vertical-align: middle;
+
+    .receiptsItem {
+      border-bottom: 1px solid #1cb5e0;
+      margin: 5px;
+      margin-left: 15px;
+      .itemTitleReceipts {
+        font-size: inherit;
+        font-weight: normal;
+        margin-left: 2px;
+      }
+      .itemValueReceipts {
+        background: #fff;
+        margin-bottom: 0px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+      }
+    }
+    .receiptsDetail {
+      margin-left: 15px;
+
+      .itemTitleReceipts {
+        font-size: inherit;
+        font-weight: normal;
+        margin-left: 2px;
+      }
+
+      .detail-receipts {
+        margin: 5px;
+        border-bottom: 1px solid #1cb5e0;
+        padding: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+        .item-bill-cost-of-living {
+          border: 1px solid #e6e6e6;
+          width: 20%;
+          margin: 10px 10px 10px;
+          padding: 5px;
+          background-color: #e6f9ff;
+        }
+      }
+    }
+  }
+}
+
+.list-receipt {
+  .receipts-title {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+    &::after {
+      width: 150px;
+      height: 2px;
+      display: block;
+      content: '';
+      position: relative;
+      margin-top: 5px;
+      margin-left: 2px;
+      background-color: #b80000;
+    }
+  }
+}
+
+.invoices {
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  .invoices-title {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+    &::after {
+      width: 150px;
+      height: 2px;
+      display: block;
+      content: '';
+      position: relative;
+      margin-top: 5px;
+      margin-left: 2px;
+      background-color: #b80000;
+    }
+  }
+
+  .card-invoices {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 5px 0 grey;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 0px;
+    vertical-align: middle;
+
+    .invoicesItem {
+      border-bottom: 1px solid #1cb5e0;
+      margin: 5px;
+      margin-left: 15px;
+      margin-right: 15px;
+
+      .itemTitleInvoices {
+        font-size: inherit;
+        font-weight: normal;
+        margin-left: 2px;
+      }
+      .itemValueInvoices {
+        background: #fff;
+        margin-bottom: 0px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.dialog-receipt {
+  display: flex;
+  .his-receipts {
+    margin: 5px;
+    border: 1px solid #1cb5e0;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    .item-bill-cost-of-living {
+      border: 1px solid #e6e6e6;
+      width: 30%;
+      margin: 10px 10px 10px;
+      padding: 5px;
+      background-color: #e6f9ff;
+      .name-cost-spending,
+      .amount-use,
+      .total-price {
+        display: flex;
+        .title {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+.violations {
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  .violations-title {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+    &::after {
+      width: 150px;
+      height: 2px;
+      display: block;
+      content: '';
+      position: relative;
+      margin-top: 5px;
+      margin-left: 2px;
+      background-color: #b80000;
+    }
+  }
+
+  .card-violations {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 5px 0 grey;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 0px;
+    vertical-align: middle;
+
+    .violationsItem {
+      border-bottom: 1px solid #1cb5e0;
+      margin: 5px;
+      margin-left: 15px;
+      margin-right: 15px;
+
+      .itemTitleViolations {
+        font-size: inherit;
+        font-weight: normal;
+        margin-left: 2px;
+      }
+      .itemValueViolations {
+        background: #fff;
+        margin-bottom: 0px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+      }
+    }
+
+    .violationsDetail {
+      margin-left: 15px;
+
+      .itemTitleViolations {
+        font-size: inherit;
+        font-weight: normal;
+        margin-left: 2px;
+      }
+
+      .detail-violations {
+        margin: 5px;
+        border-bottom: 1px solid #1cb5e0;
+        padding: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+        .violationsItem-cost-living {
+          border: 1px solid #e6e6e6;
+          width: 20%;
+          margin: 10px 10px 10px;
+          padding: 5px;
+          background-color: #e6f9ff;
+        }
+      }
+    }
+  }
+}
+
+.action-btn {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 1;
+  margin-right: 10px;
+
+  button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 10px 35px;
+    background-color: #4481eb;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #0c5983;
+    }
+  }
+}

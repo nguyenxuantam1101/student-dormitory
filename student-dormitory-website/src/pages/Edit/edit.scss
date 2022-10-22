@@ -1,0 +1,79 @@
+.card-edit {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 0 grey;
+  margin: auto;
+  margin-top: 80px;
+  height: 65vh;
+  vertical-align: middle;
+  width: 50%;
+
+  .titleEdit {
+    text-align: center;
+    padding-top: 8px;
+    text-transform: uppercase;
+    font-size: 22px;
+
+    hr {
+      margin-bottom: 1px;
+    }
+  }
+  .change-pass {
+    margin-top: 30px;
+    .change-pass-items {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        color: #555;
+        margin-top: 5px;
+      }
+
+      .ant-row {
+        margin-top: 5px;
+      }
+
+      .ant-input-affix-wrapper {
+        border-color: black;
+        border-radius: 3px;
+        width: 100%;
+        height: 40px;
+        &:hover {
+          border-color: #0c5983;
+        }
+        &:focus {
+          border-color: #0c5983;
+          box-shadow: 0 0 0 5px rgb(24 144 255 / 20%);
+          border-right-width: 1px;
+          outline: 0;
+          z-index: 1;
+        }
+      }
+      .ant-input {
+        width: 100%;
+        padding: 6px 20px 6px 6px;
+      }
+      button {
+        border-radius: 3px;
+        padding: 10px 35px;
+        background-color: #4481eb;
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        transition: background-color 0.2s ease-in-out;
+
+        &:hover {
+          background-color: #0c5983;
+        }
+      }
+    }
+  }
+}

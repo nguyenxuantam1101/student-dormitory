@@ -1,0 +1,16 @@
+.card-update {
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 1px 1px 5px 0 grey;
+  height: 50%;
+  margin: auto;
+  margin-top: 150px;
+  vertical-align: middle;
+  width: 50%;
+  display: flex;
+
+  .mess-update {
+    color: red;
+    margin: auto;
+  }
+}

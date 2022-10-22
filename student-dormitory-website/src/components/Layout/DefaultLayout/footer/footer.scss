@@ -1,0 +1,36 @@
+.footer {
+  background-color: #26272b;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+
+  hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+  }
+
+  .container-footer {
+    .about {
+      padding: 0 50px;
+
+      h6 {
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 16px;
+        letter-spacing: 2px;
+      }
+      .footer-text {
+        a {
+          cursor: default;
+          text-decoration: none;
+          color: white;
+          margin-left: 15px;
+        }
+      }
+    }
+    .copyright-text {
+      text-align: center;
+    }
+  }
+}

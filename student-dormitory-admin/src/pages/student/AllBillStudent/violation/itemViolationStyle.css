@@ -1,0 +1,86 @@
+.detail-cost-living {
+    padding: 0 10px;
+}
+
+.item-cost-living {
+    border-radius: 10px;
+    padding: 0 10px;
+    padding-left: 20px;
+    border: 1px solid #93aed2;
+    margin-top: 10px;
+}
+
+.itemTitleCost {
+    font-size: 12px;
+}
+
+.itemValueCost {
+    color: #93aed2;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.detailItem {
+    padding: 0px 10px;
+}
+
+.detailItem:nth-child(1) {
+    border-top: 1px solid #b7c9e1;
+}
+
+.item-staff-create {
+    text-align: right;
+}
+
+.item-violation {
+    background-color: aliceblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.popup-content.popup-container-violation-content {
+    position: relative;
+}
+
+.popup-content.popup-container-violation-content .detailItemBtn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.content-right-violation {
+    margin-top: 10px;
+}
+
+.content-right-violation .detailItem {
+    padding: 10px;
+}
+
+.btn-notification-payment {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.btn-violation-record {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #0066ff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.btn-violation-record:hover {
+    background-color: #4d94ff;
+}
+
+.btn-notification-email {
+    background-color: #47d147;
+}
+
+.btn-notification-email:hover {
+    background-color: #85e085;
+}
